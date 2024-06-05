@@ -110,6 +110,8 @@ func main() {
 	os.Setenv("DOCKER_USERNAME", username)
 	os.Setenv("DOCKER_PASSWORD", password)
 
+	fmt.Println("ANURAG IN NEW ECR 1.1.7")
+
 	// invoke the base docker plugin binary
 	docker.Run()
 }
